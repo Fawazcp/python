@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+print("My first Python script")
+print("")
+print("I am new to Python")
