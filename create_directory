@@ -1,0 +1,14 @@
+# Create a new directory if it doesn't exist
+#/usr/bin/python3
+import 0s
+if os.path.isdir("/opt/devops_dir"):
+    print("Directory already exist, skipping it")
+else:
+    os.mkdir("/opt/devops_dir")
+
+print("Assigning permission and ownership to the diretory")
+print("#######################################################")
+print()
+os.system("chown :devops /opt/devops_dir")
+os.system("chmod 770 /opt/devop_dir")
+
